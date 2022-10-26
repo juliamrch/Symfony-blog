@@ -1,6 +1,6 @@
 doctrine:
     dbal:
-        url: '%env(resolve:DATABASE_URL)%'
+        url: 'postgresql://umvkloh75e8rar260l5s:vbOcepbZ9YEvXQOe4Kth@bf00rpebcdl6jw3ruqxo-postgresql.services.clever-cloud.com:6567/bf00rpebcdl6jw3ruqxo'
 
         # IMPORTANT: You MUST configure your server version,
         # either here or in the DATABASE_URL env var (see .env file)
